@@ -2,13 +2,17 @@ package applications.ex1.models;
 
 import java.awt.*;
 
-public class Appearance {
+public class CharAppearance {
 
-    private Color skinColor;
+    private String skin;
 
     /*  .........  */
 
-    public Appearance(Color color){
+    public CharAppearance(String skin){
+        this.skin = skin;
+    }
 
+    public String getInfo(){
+        return "Skin : "+skin+"\n";
     }
 }
