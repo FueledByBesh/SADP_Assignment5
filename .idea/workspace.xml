@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="656456db-4bb5-4af0-a955-67fe56c7d6d7" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/appinterface/FurnitureStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/model/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/model/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/model/Sofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/model/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/system/FurnitureCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/system/FurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/system/IndustrialGlassFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/system/ModernWoodFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex3/system/TraditionalMetalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/appinterface/AppEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Stick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/model/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/system/ArcherBowFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/system/CharacterCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/system/CharacterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/system/MageStickFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applications/ex4/system/WariorSwordFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +71,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FurnitureStore">
+  <component name="RunManager" selected="Application.AppEx4">
     <configuration name="AppEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="applications.ex2.appinterface.AppEx2" />
       <module name="SADP_Assignment5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="applications.ex2.appinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="applications.ex4.appinterface.AppEx4" />
+      <module name="SADP_Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="applications.ex4.appinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppEx4" />
         <item itemvalue="Application.FurnitureStore" />
         <item itemvalue="Application.AppEx2" />
         <item itemvalue="Application.CharacterGame" />
@@ -124,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712776832455</updated>
       <workItem from="1712776833877" duration="7245000" />
-      <workItem from="1712839052218" duration="4999000" />
+      <workItem from="1712839052218" duration="8403000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1712783807797</created>
@@ -140,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712840476612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1712844145994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712844145994</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial Commit">
+      <created>1712844264494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712844264494</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
