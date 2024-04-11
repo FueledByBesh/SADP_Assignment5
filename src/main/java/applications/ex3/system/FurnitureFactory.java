@@ -1,7 +1,6 @@
 package applications.ex3.system;
 
 import applications.ex3.model.Chair;
-import applications.ex3.model.Furniture;
 import applications.ex3.model.Sofa;
 import applications.ex3.model.Table;
 

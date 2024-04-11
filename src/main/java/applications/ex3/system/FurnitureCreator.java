@@ -6,13 +6,9 @@ import applications.ex3.model.Table;
 
 public class FurnitureCreator {
 
-    private FurnitureFactory factory;
+    private final FurnitureFactory factory;
 
     public FurnitureCreator(FurnitureFactory factory){
-        this.factory=factory;
-    }
-
-    public void setFactory(FurnitureFactory factory){
         this.factory=factory;
     }
 
